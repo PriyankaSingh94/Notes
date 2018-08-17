@@ -17,3 +17,4 @@
 => Private methods in java can be accessed only by the methods in same class in same way javascript variables that are private to the method
    can be accessed externally by public methods of that method.
    check => (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) , emulating private methods using closures.
+=> Closures provide OOP functionality like data hiding and encapsulation.
