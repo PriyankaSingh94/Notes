@@ -8,3 +8,6 @@
 => Null, undefined and never are subtype of all data types.
 => No type is assigneble to never.
 => Object represent non primitive datatype.
+
+=> const variable can't be reassigned.
+=> let uses lexical scoping or block scoping.
