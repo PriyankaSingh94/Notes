@@ -1,2 +1,10 @@
-=> Types available in typescript are boolean, number, string, array, void, null, undefined, never and object.
+=> Types available in typescript are boolean, number, string, array,tuple, void, null, undefined,enum ,any , never and 
+   object. 
 => We can use backtick to create template strings that can span multiple lines and can have embedded expressions.
+=> Tuple eg. = let arr: [string, number]
+=> Any is used to opt in and optout from typechecking. We can't use object as it will not allow invoking methods even if 
+   those methods are present for the variable.
+=> Void can only be assigned to null or undefined type.
+=> Null, undefined and never are subtype of all data types.
+=> No type is assigneble to never.
+=> Object represent non primitive datatype.
