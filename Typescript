@@ -1,1 +1,2 @@
-
+=> Types available in typescript are boolean, number, string, array, void, null, undefined, never and object.
+=> We can use backtick to create template strings that can span multiple lines and can have embedded expressions.
