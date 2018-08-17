@@ -11,3 +11,9 @@
 
 => const variable can't be reassigned.
 => let uses lexical scoping or block scoping.
+=> A closure is combination of a function and environment within which the function was declared.
+=> Callback is a single function called in responce to an event.
+=> Javascript allows to emulate private methods using closures.
+=> Private methods in java can be accessed only by the methods in same class in same way javascript variables that are private to the method
+   can be accessed externally by public methods of that method.
+   check => (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) , emulating private methods using closures.
