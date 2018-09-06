@@ -22,4 +22,12 @@
 
 Interfaces =>
 
-=>Typecheking focuses on the shape that values have that is known as duck or stuctural typing.
+=> Typecheking focuses on the shape that values have that is known as duck or stuctural typing.
+=> Variables use const while property uses readonly.
+=> Typescript uses excess property checking. For getting around these checks type assertions can be used or better way is to use string 
+   index signature like below.
+   
+               interface name {
+                  [propName: string]: any;
+               }
+
