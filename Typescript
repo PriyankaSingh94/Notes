@@ -19,3 +19,7 @@
    can be accessed externally by public methods of that method.
    check => (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) , emulating private methods using closures.
 => Closures provide OOP functionality like data hiding and encapsulation.
+
+Interfaces =>
+
+=>Typecheking focuses on the shape that values have that is known as duck or stuctural typing.
