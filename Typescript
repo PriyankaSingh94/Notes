@@ -30,4 +30,8 @@ Interfaces =>
                interface name {
                   [propName: string]: any;
                }
+=> Typescript allows interfaces for functions also. The interface will have parameters name and type and return type of the function.
+=> When defining the function parameters names of the func can be different from the names given in interface.Parameters declaration
+   and usage should be in same order and type.
+=> Indexable type can be used in typescript. Two index signatures are supported string and number.
 
