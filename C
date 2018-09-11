@@ -1,0 +1,4 @@
+=> C developed at AT and T's bell labs by Dennis Ritchie.
+=>It replaced old langs like ALGOL(Algorithm Language, an imperative progm lang) and FORTRAN(Formula transition).
+=>It was preferred to newer langs like PASCAl(imperative and procedural prog lanmg) and APL(A programming lang).
+=>
