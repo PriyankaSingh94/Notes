@@ -2,3 +2,8 @@
 =>It replaced old langs like ALGOL(Algorithm Language, an imperative progm lang) and FORTRAN(Formula transition).
 =>It was preferred to newer langs like PASCAl(imperative and procedural prog lanmg) and APL(A programming lang).
 =>If a variable is not initialized then it will contain garbage value.
+=> a > b ? g = a : g = b ; will give error lvalue required as left operand of assignment. The copiler will think as b is being assigned to
+  the expression in left side. This can be overcome by a > b ? g = a : (g = b);
+=> 3 == 3.0 will evaluate to true.  
+=> Strings should be inside double quotes.
+=> If multiple expressions and assignment are present in printf for the same variable then evaluation will be from right to left.
