@@ -37,3 +37,10 @@ Interfaces =>
 => An object can behave as an object and function both.
 => If interfaces extend classes then they have excess to private and protected memebers too.
 
+Classes
+
+=>Each derived class conataining constructor must call super constructor.Because derived class constructor does not have 
+  access to super class members but its object does. So Only a base class constructor can initialize all the class 
+  members.
+
+
