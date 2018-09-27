@@ -7,3 +7,5 @@
 => 3 == 3.0 will evaluate to true.  
 => Strings should be inside double quotes.
 => If multiple expressions and assignment are present in printf for the same variable then evaluation will be from right to left.
+=>Ternary condition does not allow ; in middle of the expression like
+            ( n == 9 ? printf( "You are correct" ) ; : printf( "You are wrong" ) ;) ;
