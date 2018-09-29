@@ -9,3 +9,14 @@
 => If multiple expressions and assignment are present in printf for the same variable then evaluation will be from right to left.
 =>Ternary condition does not allow ; in middle of the expression like
             ( n == 9 ? printf( "You are correct" ) ; : printf( "You are wrong" ) ;) ;
+=>For loop can have multiple initialization andincrementation. like for ( i = 1, j = 2 ; j <= 10 ; j++ ). It must be comma seperated.
+  However only one expression is allowed. Multiple initialization is comma seperated and tha is why semicolon is used to seperate 3 exprsn.
+=>In Odd loop we do not know from before that how many times loop will be executed like running loop until user 
+  presses N.
+=>In float x = 1.1 ; while ( x == 1.1 ) snippet x is initialized to float but 1.1 in while is of type double which can take a range of values
+  so while wont execute.
+=>Simplest logic to get individual digits of a number is
+        digit1 = number - ((number / 10) * 10);
+        digit2 = (number / 10) - ((number / 100) * 10);
+        digit3 = (number / 100) - ((number / 1000) * 10);
+
