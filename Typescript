@@ -49,4 +49,9 @@ Classes
 =>Contructors can be protected means class can not be instantiated outside the containing class but can be extended.
 =>If we have Animal class and Dog class extends Animal then we can have 
    let dog: Dog = new Animal(), declaration only if Animal has all class members as Dog has.
+=>In javascript every parameter is optional or can be left if, then they will be assigned as null.
+=> function buildName(firstName: string, lastName?: string)
+      let result1 = buildName("Bob");                  // works correctly now
+      let result2 = buildName("Bob", "Adams", "Sr.");  // error, too many parameters
+      let result3 = buildName("Bob", "Adams");         //fine
 
