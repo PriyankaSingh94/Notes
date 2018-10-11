@@ -64,5 +64,8 @@ Classes
    function buildName(firstName = "Will", lastName: string) { }
    let result1 = buildName("Bob"); // error
    let result4 = buildName(undefined, "Adams");   // Works fine
+
+Generics =>
+=>We can not create generic enums and namespaces
    
 
