@@ -28,6 +28,6 @@
 
 for (int d = 0; d <= i; d++) {    // display loop variable
           num=(Fact(i)/(Fact(d)*Fact(i-d)));  // i stands for row number
-            printf("%2d",num);
+            printf("%d",num);
             printf("  ");    
         }
