@@ -1,0 +1,15 @@
+1)   1
+    1 1
+   1 2 1
+  1 3 3 1
+ 1 4 6 4 1
+ 
+ Sol =>This will have one loop for rows, one for inverted triangle made of spaces and one for values to be displayed
+        that will be like
+
+        for (int d = 0; d <= i; d++) {    // display loop variable
+              num=(Fact(i)/(Fact(d)*Fact(i-d)));  // i stands for row number
+                printf("%d",num);
+                printf("  ");    
+            }
+Note: In this soln the rows loop should run from 0 to less than n.
