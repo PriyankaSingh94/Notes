@@ -67,5 +67,5 @@ Classes
 
 Generics =>
 =>We can not create generic enums and namespaces
-   
+=>An identity function is a function that will return back what is passed in. It is similar to echo command.
 
