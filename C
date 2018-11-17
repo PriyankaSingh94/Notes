@@ -31,3 +31,13 @@ for (int d = 0; d <= i; d++) {    // display loop variable
             printf("%d",num);
             printf("  ");    
         }
+        
+=> Switch cases:
+  1. Cases can be written in any order.
+  2. Char can be used in cases that would be converted to ASCII values
+  3. Even there are multiple statements in each case no need to eclose it with  curly braces.
+  4. If any statement inside switch does not come under any case then it will not get executed and will not report any error also.
+  5. Expression (relational operations) or float cannot be written in case(Disadvantage of switch).
+  6. Expression can be evaluated in switch braces.
+  7. Break takes the control out of the switch, however continue will not take control to the beginning of the switch.
+  
