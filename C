@@ -50,5 +50,11 @@ for (int d = 0; d <= i; d++) {    // display loop variable
     Any number of gotos can take control to same label
     The only programming situation in favour of goto is when we need to take control outside the loop  which is nested inside a number of 
     loops.
+    tement
+=> Functions and Pointers: 
+    A function is a self-contained block of statements that perform coherent task of some kind.
+    Main function also can be called inside any other function
+    A function cannot be defined in any other function.
+    return; statement will return a garbage value to the callng fn.
     
   
