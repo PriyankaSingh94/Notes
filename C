@@ -37,7 +37,17 @@ for (int d = 0; d <= i; d++) {    // display loop variable
   2. Char can be used in cases that would be converted to ASCII values
   3. Even there are multiple statements in each case no need to eclose it with  curly braces.
   4. If any statement inside switch does not come under any case then it will not get executed and will not report any error also.
-  5. Expression (relational operations) or float cannot be written in case(Disadvantage of switch).
+  5. Expression (relational operations or variable expressions) or float cannot be written in case(Disadvantage of switch).
   6. Expression can be evaluated in switch braces.
   7. Break takes the control out of the switch, however continue will not take control to the beginning of the switch.
+  8. Multiple cases cannot use same expressions.
+  9. Switch is fast bcuz at the compile time a jump tabke is created but compiler so that no need to check each case at run time.
+  10. For lesses cases switch will be slower than if else.
+  11. Switch is useful for menu driven programs.
+=> Goto: 
+    On using goto we can never be sure that how we got to that point. Gotos obscure the flow of control.
+    Any number of gotos can take control to same label
+    The only programming situation in favour of goto is when we need to take control outside the loop  which is nested inside a number of 
+    loops.
+    
   
