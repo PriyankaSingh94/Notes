@@ -68,4 +68,8 @@ Classes
 Generics =>
 =>We can not create generic enums and namespaces
 =>An identity function is a function that will return back what is passed in. It is similar to echo command.
+=>Static parameter can not use classes' generic type.
+=>We can constraint the function with any or all type which also have certain property.We will create an interface which will have that 
+  property and in our class definition we can extend that interface.
+  Constructor can be given as generic
 
