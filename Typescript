@@ -71,5 +71,12 @@ Generics =>
 =>Static parameter can not use classes' generic type.
 =>We can constraint the function with any or all type which also have certain property.We will create an interface which will have that 
   property and in our class definition we can extend that interface.
-  Constructor can be given as generic
+=>Constructor can be given as generic.
+
+Enums =>
+=>Allow us to define a set of named constants.
+=>Typescript have numeric and string type of enums
+=>enums without numeric initializer should either come first or after enums initialized with numeric constants.
+=>String enums serialize well. String enum allows you to give a readable and meaningful value when your code runs, independent of the name
+  of enum member itself.
 
