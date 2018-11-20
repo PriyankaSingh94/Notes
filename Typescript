@@ -79,4 +79,7 @@ Enums =>
 =>enums without numeric initializer should either come first or after enums initialized with numeric constants.
 =>String enums serialize well. String enum allows you to give a readable and meaningful value when your code runs, independent of the name
   of enum member itself.
+=>String enums do not have reverse mapping.
+=>Const enums are completely removed during compilation.
+=>An ambient (and non-const) enum member that does not have initializer is always considered computed.
 
