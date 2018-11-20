@@ -13,3 +13,26 @@
                 printf("  ");    
             }
 Note: In this soln the rows loop should run from 0 to less than n.
+
+2) -There are 21 matchsticks.
+-The computer asks the player to pick 1, 2, 3 or 4 matchsticks.
+-After the person picks, the computer does its picking.
+-Whoever is forced to pick up the last matchstick loses the game.
+=>
+    int main() {
+        while(nm >=1) {  //While loop till matchsticks are more than one
+            if (nm == 1) {
+                // exit code;
+                break;
+            }
+            //scan user input
+            if (usr>4) {
+                continue;
+            }
+            //Computers turn
+            comp = 5- usr;  // so in one while loop every time 5 match sticks will be picked and in 4 iteration 20 which will leave 1.
+            nm = nm - comp-usr;
+        }
+    }
+      
+
