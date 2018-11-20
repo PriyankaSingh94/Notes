@@ -69,5 +69,8 @@ for (int d = 0; d <= i; d++) {    // display loop variable
     On using call by reference we can make one function return more than one values at a time
     Memory for a function is allocated on stack space of the of the process and it is a runtime activity.The stack is last in first out
     data structure.
-     
+    Different ways of organizing data are known as data structures.
+    The Compiler uses stack data structure for implementing normal as well as recursive function calls.
+    tlib.exe (Turbo librarian) utility is used to add user defined function to library for C/C++ turbo compilers.
+    C:\>tlib math.lib + c:\fact.obj  // this command will add factorial function to library, can be used by  including #include "c:\\fact.h".
   
