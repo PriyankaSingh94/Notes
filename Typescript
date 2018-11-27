@@ -82,4 +82,22 @@ Enums =>
 =>String enums do not have reverse mapping.
 =>Const enums are completely removed during compilation.
 =>An ambient (and non-const) enum member that does not have initializer is always considered computed.
-
+=>Enums can be used for creating flags.
+=>Typescript is based on structural subtyping.Nominally-typed languages = C# , Java
+=>on comparing two functions names of two parameters are not considered only type is considered.
+      let x = (a: number) => 0;
+      let y = (b: number, s: string) => 0;
+      y = x; // OK
+      x = y; // Error
+      
+      interface Empty<T> {
+      }
+      let x: Empty<number>;
+      let y: Empty<string>;
+      x = y;  // OK, because y matches structure of x
+=>In TypeScript, there are two kinds of compatibility: subtype and assignment, type compatibility is dictated by assignment compatibility.
+Advanced Types:
+=>An intersection type combines multiple types into one. Person & Serializable & Loggable.
+=>Union types = number | string | boolean.If we have a value that has a union type, we can only access members that are common to all types in the union
+=>A type guard is some expression that performs a runtime check that guarantees the type in some scope.
+=>typeof is a type guard.  
