@@ -101,3 +101,4 @@ Advanced Types:
 =>Union types = number | string | boolean.If we have a value that has a union type, we can only access members that are common to all types in the union
 =>A type guard is some expression that performs a runtime check that guarantees the type in some scope.
 =>typeof is a type guard.  
+=>The inventor of null, Tony Hoare, calls this his “billion dollar mistake”.
