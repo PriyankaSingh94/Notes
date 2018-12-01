@@ -73,4 +73,4 @@ for (int d = 0; d <= i; d++) {    // display loop variable
     The Compiler uses stack data structure for implementing normal as well as recursive function calls.
     tlib.exe (Turbo librarian) utility is used to add user defined function to library for C/C++ turbo compilers.
     C:\>tlib math.lib + c:\fact.obj  // this command will add factorial function to library, can be used by  including #include "c:\\fact.h".
-  
+    Never keep function names as existing library function names.
