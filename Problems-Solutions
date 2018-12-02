@@ -62,5 +62,15 @@ Steps =>
 4. Checking of Leap year
     a. If year divisible by 4 and not by 100
     b. If the year is divisible by 400.
-      
+5. Prime factors of a number 
+    while (num % 2 == 0) {
+    print 2 and divide num by 2 subsequently
+    }
+    for loop from 3 to sqrt(num) {
+        while (num % i == 0)
+        print i and divide num by i subsequently
+    }
+    // In case number is prime number greater than 2
+    if ( num > 2) 
+        print num
 
