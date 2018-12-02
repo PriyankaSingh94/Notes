@@ -34,5 +34,33 @@ Note: In this soln the rows loop should run from 0 to less than n.
             nm = nm - comp-usr;
         }
     }
+    
+3. Convert input years to roman numerals =>
+Steps =>
+    1. Take input year.
+    2. Have one function with year passed to it. 
+        roman(year) {
+            check if (year >= 1000) {
+                roman(year - 1000)
+                print m
+            }
+            check if (year >= 500) {
+                roman(year - 500)
+                print d
+            }
+            check if (year >= 100) {
+                roman(year - 100)
+                print c
+            }
+            check if (year >= 50) {
+                roman(year - 1000)
+                print l
+            }
+            
+            like wise check for 10 5 1
+        }
+4. Checking of Leap year
+    a. If year divisible by 4 and not by 100
+    b. If the year is divisible by 400.
       
 
