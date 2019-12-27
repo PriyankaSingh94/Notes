@@ -73,4 +73,22 @@ Steps =>
     // In case number is prime number greater than 2
     if ( num > 2) 
         print num
+ 6. #include<stdio.h> 
+    int  main() 
+    { 
+        unsigned int x = -1; 
+        int y = ~0; 
+        if (x == y) 
+            printf("same"); 
+        else
+            printf("not same"); 
+        return 0; 
+     }
+     Sol. => x is unsigned variable so value of x will be 429467295 and y will become -1. In comparison of x and y (x == y) as x is 
+             unsigned values y will be first converted to unsigned and then it will also become 429467295 and O/P will be "same".
+             
+  7. We need to set p to nC3. If n is large how will you set p correctly.
+  => The answer will be n*(n-1)*(n-3)/6 but as n is a big number n*(n-1)*(n-3) will be out of range and we will get overflow so
+     the better option is n * (n-1)/2 * (n-2)/3.
+     
 
